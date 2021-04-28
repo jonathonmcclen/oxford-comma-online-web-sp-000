@@ -3,4 +3,10 @@ def oxford_comma(array)
   array.pop
   new_string = array.join(", ")
   new_string << ", and #{last}"
+  
+  if array.size <= 1
+    
+  elsif array.size == 2
+    
+  end 
 end
